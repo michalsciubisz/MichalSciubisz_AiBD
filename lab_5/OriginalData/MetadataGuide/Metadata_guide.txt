@@ -1,0 +1,25 @@
+Original data drinks.csv is available in /Original folder. Also copied to folder /AnalysisData.
+
+Data after analysis is available in:
+* /AnalysisData/drinks.csv - file contains copied data from original file to work with
+** country - string, name of country
+** beer_servings - variable, the amount of beer servings consumed annualy per person
+** wine_servings - variable, the amount of wine servings consumed annualy per person
+** spirit_serving - variable, the amount of spirit servings consumed annualy per person
+** total_litres_of_pure_alcohol - variable, the amount of alcohol consumed annualy per person
+
+* /AnalysisData/drinks_beer_servings.csv - file contains data of country and amount of beer servings consumed with descending order of servings to define which country consumed the biggest amount of servings
+**  country - string, name of country
+** beer_servings - variable, the amount of beer servings consumed with descending order
+
+* /AnalysisData/drinks_wine_servings.csv - file contains data of country and amount of wine servings consumed with descending order of servings to define which country consumed the biggest amount of servings
+** country - string, name of country
+** wine_servings - variable, the amount of wine servings consumed with descending order
+
+* /AnalysisData/drinks_spirit_servings.csv - file contains data of country and amount of spirit servings consumed with descending order of servings to define which country consumed the biggest amount of servings
+** country - string, name of country
+** spirit_servings - variable, the amount of spirit servings consumed with descending order
+
+* /AnalysisData/drinks_totally.csv - file contains the amount of alcohol consumed anually per person, to see which country consumes the biggest amount of alcohol
+** country - string, name of country
+** total_litres_of_pure_alcohol - variable, the amount of alcohol consumed anually with descending order
